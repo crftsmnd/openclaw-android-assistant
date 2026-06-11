@@ -756,7 +756,8 @@ H3
             |  "agents": {
             |    "defaults": {
             |      "model": {
-            |        "primary": "openai-codex/gpt-5.3-codex"
+            |        "primary": "openai-codex/gpt-5.3-codex",
+            |        "fallbackDefault": "openai-codex/gpt-5.3-codex"
             |      }
             |    }
             |  }
