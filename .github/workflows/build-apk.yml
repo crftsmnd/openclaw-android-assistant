@@ -112,7 +112,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: openclaw-android-${{ inputs.build_type }}
-          path: ${{ env.APK_PATH }}
+          path: apps/android/app/build/outputs/apk/play/${{ inputs.build_type }}/openclaw-android.apk
           if-no-files-found: error
 
       - name: Generate changelog
